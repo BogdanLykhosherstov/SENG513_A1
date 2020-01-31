@@ -241,7 +241,7 @@ td{
     height:300px;
 }
 .map{
-    background-image: url('https://bogdanlykhosherstov.github.io/SENG513_A1/resources/map.PNG');
+    background-image: url('../resources/map.PNG');
     background-size: cover;
     
 }

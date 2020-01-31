@@ -219,14 +219,40 @@ td{
     text-align: center;
     box-shadow: 0px 0px 20px #EEEEEE;
 }
-.contact-card h1{
+.contact-card > h1{
     background-color: #46E0BB;
     margin:0;
     padding:40px;
     color: white;
 }
 .image-card{
-    margin-top: 30px;
+    color:#3f3f3f;
+    
     text-align: left;
-    padding:20px;
+    
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+.block{
+    width:100%;
+    padding:40px;
+    height:300px;
+}
+.map{
+    background-image: url('/resources/map.PNG');
+    background-size: cover;
+    
+}
+.contact-card h2{
+    font-weight: 500;
+}
+.contact-card p{
+    color:#46E0BB;
+    font-weight: bold;
+    font-size: 18px;
+}
+.img_map{
+    width:50%;
 }
